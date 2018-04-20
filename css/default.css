@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Baskerville Old Face';
+	src: url('../fonts/BaskOldFace.eot');
+	src: local('☺'), url('../fonts/BaskOldFace.woff') format('woff'), url('../fonts/BaskOldFace.ttf') format('truetype'), url('../fonts/BaskOldFace.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	-webkit-text-size-adjust: none;
+	outline: none; 								/* for Firefox */
+ 	hlbr:expression(this.onFocus=this.blur()); 	/* for IE */
+}
+body, html {
+	margin: 0px;
+	padding: 0px;
+	font-family: "微軟正黑體", Arial;
+	background-image: url(../images/common_images/bg_02.jpg);
+	background-repeat: repeat-x;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.fullTexty {
+	text-align: justify;						/*　Firefox到此即可對齊　*/
+ 	text-justify: distribute;					/*　IE需再加上此行　*/
+}
+.overflowTexty {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.noDisplay {
+	display: none;
+}
+lable.error {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bolder;
+	color: #F00;
+	display: block;
+}
+.corner3px {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.corner4px {
+	-webkit-border-radius:4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.corner5px {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.corner6px {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.corner7px {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.corner8px {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.corner9px {
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+.corner11px {
+	-webkit-border-radius: 11px;
+	-moz-border-radius: 11px;
+	border-radius: 11px;
+}

@@ -1,0 +1,13 @@
+
+
+.mainfoot .infoBox a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mainfoot .infoBox a:hover
+{
+    text-decoration: underline;
+}
+
